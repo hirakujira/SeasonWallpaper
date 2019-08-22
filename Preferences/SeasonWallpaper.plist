@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = SeasonWallpaper;
+		cell = PSLinkCell;
+		detail = "SeasonWallpaperListController";
+		icon = "icon.png";
+		isController = 1;
+		label = "Season Wallpaper";
+	};
+}

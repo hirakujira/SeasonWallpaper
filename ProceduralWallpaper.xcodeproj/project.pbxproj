@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA4F14FF1883C3B600B0FD7E /* HomescreenThumbnail@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4F14FD1883C3B600B0FD7E /* HomescreenThumbnail@2x~ipad.png */; };
+		CA4F15001883C3B600B0FD7E /* LockscreenThumbnail@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4F14FE1883C3B600B0FD7E /* LockscreenThumbnail@2x~ipad.png */; };
+		CA92940D187E68BE00770C70 /* flake.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9293FB187E68BE00770C70 /* flake.png */; };
+		CA92940E187E68BE00770C70 /* flower1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9293FC187E68BE00770C70 /* flower1.png */; };
+		CA92940F187E68BE00770C70 /* flower2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9293FD187E68BE00770C70 /* flower2.png */; };
+		CA929410187E68BE00770C70 /* flower3.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9293FE187E68BE00770C70 /* flower3.png */; };
+		CA929411187E68BE00770C70 /* flower4.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9293FF187E68BE00770C70 /* flower4.png */; };
+		CA929412187E68BE00770C70 /* flower5.png in Resources */ = {isa = PBXBuildFile; fileRef = CA929400187E68BE00770C70 /* flower5.png */; };
+		CA929413187E68BE00770C70 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA929401187E68BE00770C70 /* Info.plist */; };
+		CA929414187E68BE00770C70 /* leaf1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA929402187E68BE00770C70 /* leaf1.png */; };
+		CA929415187E68BE00770C70 /* leaf2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA929403187E68BE00770C70 /* leaf2.png */; };
+		CA929416187E68BE00770C70 /* leaf3.png in Resources */ = {isa = PBXBuildFile; fileRef = CA929404187E68BE00770C70 /* leaf3.png */; };
+		CA929417187E68BE00770C70 /* leaf4.png in Resources */ = {isa = PBXBuildFile; fileRef = CA929405187E68BE00770C70 /* leaf4.png */; };
+		CA929418187E68BE00770C70 /* leaf5.png in Resources */ = {isa = PBXBuildFile; fileRef = CA929406187E68BE00770C70 /* leaf5.png */; };
+		CA929419187E68BE00770C70 /* LockscreenThumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA929409187E68BE00770C70 /* LockscreenThumbnail@2x.png */; };
+		CA92941A187E68BE00770C70 /* HomescreenThumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA92940A187E68BE00770C70 /* HomescreenThumbnail@2x.png */; };
+		CA92941B187E68BE00770C70 /* SeasonWallpaper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA92940C187E68BE00770C70 /* SeasonWallpaper.m */; };
+		CAAD513F18A3EB1E0045D0AC /* feather1.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAD513A18A3EB1E0045D0AC /* feather1.png */; };
+		CAAD514018A3EB1E0045D0AC /* feather2.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAD513B18A3EB1E0045D0AC /* feather2.png */; };
+		CAAD514118A3EB1E0045D0AC /* feather3.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAD513C18A3EB1E0045D0AC /* feather3.png */; };
+		CAAD514218A3EB1E0045D0AC /* feather4.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAD513D18A3EB1E0045D0AC /* feather4.png */; };
+		CAAD514318A3EB1E0045D0AC /* feather5.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAD513E18A3EB1E0045D0AC /* feather5.png */; };
+		CAC0ED65187DDE990037EDFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A171A121874D95A00CF8D08 /* UIKit.framework */; };
+		CAC0ED66187DDE990037EDFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1719D51874D75800CF8D08 /* Foundation.framework */; };
+		CAC0ED67187DDE990037EDFB /* SpringBoardFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A171A0F1874D95000CF8D08 /* SpringBoardFoundation.framework */; };
+		CAE65B1C1A0E1934009B6E43 /* LockscreenThumbnail-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE65B1B1A0E1934009B6E43 /* LockscreenThumbnail-736h@3x.png */; };
+		CAE65B1E1A0E1D40009B6E43 /* HomescreenThumbnail-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE65B1D1A0E1D40009B6E43 /* HomescreenThumbnail-736h@3x.png */; };
+		CAE65B211A0E1F15009B6E43 /* HomescreenThumbnail-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE65B1F1A0E1F15009B6E43 /* HomescreenThumbnail-667h@2x.png */; };
+		CAE65B221A0E1F15009B6E43 /* LockscreenThumbnail-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE65B201A0E1F15009B6E43 /* LockscreenThumbnail-667h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A1719D51874D75800CF8D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A1719E31874D75800CF8D08 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3A171A0F1874D95000CF8D08 /* SpringBoardFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpringBoardFoundation.framework; path = System/Library/PrivateFrameworks/SpringBoardFoundation.framework; sourceTree = SDKROOT; };
+		3A171A121874D95A00CF8D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA4F14FD1883C3B600B0FD7E /* HomescreenThumbnail@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomescreenThumbnail@2x~ipad.png"; sourceTree = "<group>"; };
+		CA4F14FE1883C3B600B0FD7E /* LockscreenThumbnail@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockscreenThumbnail@2x~ipad.png"; sourceTree = "<group>"; };
+		CA9293FB187E68BE00770C70 /* flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flake.png; sourceTree = "<group>"; };
+		CA9293FC187E68BE00770C70 /* flower1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower1.png; sourceTree = "<group>"; };
+		CA9293FD187E68BE00770C70 /* flower2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower2.png; sourceTree = "<group>"; };
+		CA9293FE187E68BE00770C70 /* flower3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower3.png; sourceTree = "<group>"; };
+		CA9293FF187E68BE00770C70 /* flower4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower4.png; sourceTree = "<group>"; };
+		CA929400187E68BE00770C70 /* flower5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower5.png; sourceTree = "<group>"; };
+		CA929401187E68BE00770C70 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA929402187E68BE00770C70 /* leaf1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf1.png; sourceTree = "<group>"; };
+		CA929403187E68BE00770C70 /* leaf2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf2.png; sourceTree = "<group>"; };
+		CA929404187E68BE00770C70 /* leaf3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf3.png; sourceTree = "<group>"; };
+		CA929405187E68BE00770C70 /* leaf4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf4.png; sourceTree = "<group>"; };
+		CA929406187E68BE00770C70 /* leaf5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf5.png; sourceTree = "<group>"; };
+		CA929407187E68BE00770C70 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		CA929408187E68BE00770C70 /* SBFProceduralWallpaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBFProceduralWallpaper.h; sourceTree = "<group>"; };
+		CA929409187E68BE00770C70 /* LockscreenThumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockscreenThumbnail@2x.png"; sourceTree = "<group>"; };
+		CA92940A187E68BE00770C70 /* HomescreenThumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomescreenThumbnail@2x.png"; sourceTree = "<group>"; };
+		CA92940B187E68BE00770C70 /* SeasonWallpaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeasonWallpaper.h; sourceTree = "<group>"; };
+		CA92940C187E68BE00770C70 /* SeasonWallpaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeasonWallpaper.m; sourceTree = "<group>"; };
+		CAAD513A18A3EB1E0045D0AC /* feather1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feather1.png; sourceTree = "<group>"; };
+		CAAD513B18A3EB1E0045D0AC /* feather2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feather2.png; sourceTree = "<group>"; };
+		CAAD513C18A3EB1E0045D0AC /* feather3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feather3.png; sourceTree = "<group>"; };
+		CAAD513D18A3EB1E0045D0AC /* feather4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feather4.png; sourceTree = "<group>"; };
+		CAAD513E18A3EB1E0045D0AC /* feather5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feather5.png; sourceTree = "<group>"; };
+		CAC0ED6E187DDE990037EDFB /* SeasonWallpaper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasonWallpaper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE65B1B1A0E1934009B6E43 /* LockscreenThumbnail-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockscreenThumbnail-736h@3x.png"; sourceTree = "<group>"; };
+		CAE65B1D1A0E1D40009B6E43 /* HomescreenThumbnail-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomescreenThumbnail-736h@3x.png"; sourceTree = "<group>"; };
+		CAE65B1F1A0E1F15009B6E43 /* HomescreenThumbnail-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomescreenThumbnail-667h@2x.png"; sourceTree = "<group>"; };
+		CAE65B201A0E1F15009B6E43 /* LockscreenThumbnail-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockscreenThumbnail-667h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC0ED63187DDE990037EDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC0ED65187DDE990037EDFB /* UIKit.framework in Frameworks */,
+				CAC0ED66187DDE990037EDFB /* Foundation.framework in Frameworks */,
+				CAC0ED67187DDE990037EDFB /* SpringBoardFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1719C91874D75800CF8D08 = {
+			isa = PBXGroup;
+			children = (
+				CA9293FA187E68BE00770C70 /* SeasonWallpaper */,
+				3A1719D41874D75800CF8D08 /* Frameworks */,
+				3A1719D31874D75800CF8D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A1719D31874D75800CF8D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC0ED6E187DDE990037EDFB /* SeasonWallpaper.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A1719D41874D75800CF8D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A171A121874D95A00CF8D08 /* UIKit.framework */,
+				3A171A0F1874D95000CF8D08 /* SpringBoardFoundation.framework */,
+				3A1719D51874D75800CF8D08 /* Foundation.framework */,
+				3A1719E31874D75800CF8D08 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA9293FA187E68BE00770C70 /* SeasonWallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				CA92941C187E68C300770C70 /* Supporting Files */,
+				CA929407187E68BE00770C70 /* Prefix.pch */,
+				CA929408187E68BE00770C70 /* SBFProceduralWallpaper.h */,
+				CA92940B187E68BE00770C70 /* SeasonWallpaper.h */,
+				CA92940C187E68BE00770C70 /* SeasonWallpaper.m */,
+			);
+			path = SeasonWallpaper;
+			sourceTree = "<group>";
+		};
+		CA92941C187E68C300770C70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAAD513A18A3EB1E0045D0AC /* feather1.png */,
+				CAAD513B18A3EB1E0045D0AC /* feather2.png */,
+				CAAD513C18A3EB1E0045D0AC /* feather3.png */,
+				CAAD513D18A3EB1E0045D0AC /* feather4.png */,
+				CAAD513E18A3EB1E0045D0AC /* feather5.png */,
+				CA9293FB187E68BE00770C70 /* flake.png */,
+				CA9293FC187E68BE00770C70 /* flower1.png */,
+				CA9293FD187E68BE00770C70 /* flower2.png */,
+				CA9293FE187E68BE00770C70 /* flower3.png */,
+				CA9293FF187E68BE00770C70 /* flower4.png */,
+				CA929400187E68BE00770C70 /* flower5.png */,
+				CA929401187E68BE00770C70 /* Info.plist */,
+				CA929402187E68BE00770C70 /* leaf1.png */,
+				CA929403187E68BE00770C70 /* leaf2.png */,
+				CA929404187E68BE00770C70 /* leaf3.png */,
+				CA929405187E68BE00770C70 /* leaf4.png */,
+				CA929406187E68BE00770C70 /* leaf5.png */,
+				CAE65B1F1A0E1F15009B6E43 /* HomescreenThumbnail-667h@2x.png */,
+				CAE65B201A0E1F15009B6E43 /* LockscreenThumbnail-667h@2x.png */,
+				CAE65B1D1A0E1D40009B6E43 /* HomescreenThumbnail-736h@3x.png */,
+				CAE65B1B1A0E1934009B6E43 /* LockscreenThumbnail-736h@3x.png */,
+				CA929409187E68BE00770C70 /* LockscreenThumbnail@2x.png */,
+				CA4F14FD1883C3B600B0FD7E /* HomescreenThumbnail@2x~ipad.png */,
+				CA4F14FE1883C3B600B0FD7E /* LockscreenThumbnail@2x~ipad.png */,
+				CA92940A187E68BE00770C70 /* HomescreenThumbnail@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC0ED60187DDE990037EDFB /* SeasonWallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC0ED6B187DDE990037EDFB /* Build configuration list for PBXNativeTarget "SeasonWallpaper" */;
+			buildPhases = (
+				CAC0ED61187DDE990037EDFB /* Sources */,
+				CAC0ED63187DDE990037EDFB /* Frameworks */,
+				CAC0ED68187DDE990037EDFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeasonWallpaper;
+			productName = MagicWallpaper;
+			productReference = CAC0ED6E187DDE990037EDFB /* SeasonWallpaper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A1719CA1874D75800CF8D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Anton;
+			};
+			buildConfigurationList = 3A1719CD1874D75800CF8D08 /* Build configuration list for PBXProject "ProceduralWallpaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A1719C91874D75800CF8D08;
+			productRefGroup = 3A1719D31874D75800CF8D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC0ED60187DDE990037EDFB /* SeasonWallpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC0ED68187DDE990037EDFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAD513F18A3EB1E0045D0AC /* feather1.png in Resources */,
+				CAE65B1E1A0E1D40009B6E43 /* HomescreenThumbnail-736h@3x.png in Resources */,
+				CAAD514318A3EB1E0045D0AC /* feather5.png in Resources */,
+				CA929412187E68BE00770C70 /* flower5.png in Resources */,
+				CA929410187E68BE00770C70 /* flower3.png in Resources */,
+				CA929415187E68BE00770C70 /* leaf2.png in Resources */,
+				CA929417187E68BE00770C70 /* leaf4.png in Resources */,
+				CAE65B221A0E1F15009B6E43 /* LockscreenThumbnail-667h@2x.png in Resources */,
+				CA92940F187E68BE00770C70 /* flower2.png in Resources */,
+				CAAD514218A3EB1E0045D0AC /* feather4.png in Resources */,
+				CAE65B211A0E1F15009B6E43 /* HomescreenThumbnail-667h@2x.png in Resources */,
+				CA4F15001883C3B600B0FD7E /* LockscreenThumbnail@2x~ipad.png in Resources */,
+				CAE65B1C1A0E1934009B6E43 /* LockscreenThumbnail-736h@3x.png in Resources */,
+				CA929418187E68BE00770C70 /* leaf5.png in Resources */,
+				CA929419187E68BE00770C70 /* LockscreenThumbnail@2x.png in Resources */,
+				CA92940E187E68BE00770C70 /* flower1.png in Resources */,
+				CAAD514018A3EB1E0045D0AC /* feather2.png in Resources */,
+				CA4F14FF1883C3B600B0FD7E /* HomescreenThumbnail@2x~ipad.png in Resources */,
+				CA929416187E68BE00770C70 /* leaf3.png in Resources */,
+				CA929411187E68BE00770C70 /* flower4.png in Resources */,
+				CA929414187E68BE00770C70 /* leaf1.png in Resources */,
+				CA92941A187E68BE00770C70 /* HomescreenThumbnail@2x.png in Resources */,
+				CA92940D187E68BE00770C70 /* flake.png in Resources */,
+				CA929413187E68BE00770C70 /* Info.plist in Resources */,
+				CAAD514118A3EB1E0045D0AC /* feather3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC0ED61187DDE990037EDFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA92941B187E68BE00770C70 /* SeasonWallpaper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A1719F31874D75800CF8D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A1719F41874D75800CF8D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAC0ED6C187DDE990037EDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SeasonWallpaper/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = SeasonWallpaper.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = SeasonWallpaper;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CAC0ED6D187DDE990037EDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SeasonWallpaper/Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = SeasonWallpaper.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = SeasonWallpaper;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A1719CD1874D75800CF8D08 /* Build configuration list for PBXProject "ProceduralWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1719F31874D75800CF8D08 /* Debug */,
+				3A1719F41874D75800CF8D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC0ED6B187DDE990037EDFB /* Build configuration list for PBXNativeTarget "SeasonWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC0ED6C187DDE990037EDFB /* Debug */,
+				CAC0ED6D187DDE990037EDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A1719CA1874D75800CF8D08 /* Project object */;
+}
